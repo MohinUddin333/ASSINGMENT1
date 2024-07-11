@@ -1,0 +1,114 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.margin {
+    width: 90%;
+    margin: auto;
+}
+
+.button{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: azure;
+}
+.button1{
+    border: 1px solid black;
+    padding: 12px;
+    width: 200px;
+}
+
+
+.banner {
+    background-image: url('assets/Hero-bg.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    height: 100vh;   
+
+}
+
+.para{
+    width: 700px;
+    text-align: center;
+}
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 30px;
+}
+.cards{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+}
+
+.cardHeader {
+    width: 400px;
+}
+
+.crd{
+    padding: 10px;
+    width: 255px;
+    background-color: aqua;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.crds{
+    display: flex;
+    justify-content: space-between;
+}
+
+.email{
+    background-image: url('assets/handshake.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    height: 40vh; 
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.input{
+   padding: 10px 70px;
+   border-radius: 10px;
+}
+.submit{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: blue;
+    font-weight: bold;
+}
+.email p {
+    color: white;
+    font-weight: bold;
+}
+.email h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.footer{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    
+}
